@@ -15,3 +15,18 @@ A multi-threaded network scanner built in Python to detect active hosts and open
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/network-scanner.git
+
+
+Navigate to the project directory:
+cd network-scanner
+
+Run the script (Python 3.x required):
+python3 network_scanner.py --help
+
+Usage
+
+python3 network_scanner.py <target_ip> [--start-port <start>] [--end-port <end>] [--threads <threads>] [--timeout <timeout>]
+
+Example
+
+python3 network_scanner.py 192.168.1.1 --start-port 1 --end-port 1000 --threads 150 --timeout 0.5
