@@ -1,5 +1,3 @@
-# networkscanner
-# network scanner written with python
 
 # Network Scanner
 
